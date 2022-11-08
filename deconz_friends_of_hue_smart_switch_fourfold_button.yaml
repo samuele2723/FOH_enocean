@@ -10,8 +10,6 @@ blueprint:
       description: Switch device
       selector:
         device:
-          integration: deCONZ
-          manufacturer: PhilipsFoH
           model: FOHSWITCH
     button_one_single_press:
       name: 1 button - Single press
