@@ -1,7 +1,7 @@
 blueprint:
-  name: deCONZ - Philips Friends of Hue Smart Switch (4 buttons)
+  name: enOCEAN - Philips Friends of Hue Smart Switch (4 buttons)
   description: >
-    Philips Friends of Hue Smart Switch (4 buttons), like senic https://de.senic.com based on PTM 215ZE EnOcean Alliance
+    Philips Friends of Hue Smart Switch (4 buttons), with Hue Bridge
   domain: automation
   source_url: https://github.com/myGithub-Markus/home-assistant_blueprints/blob/main/deconz_friends_of_hue_smart_switch_fourfold_button.yaml
   input:
@@ -11,6 +11,7 @@ blueprint:
       selector:
         device:
           manufacturer: PhilipsFoH
+          integration: Philips Hue
     button_one_single_press:
       name: 1 button - Single press
       description: Action to run on a single press of the button 1
