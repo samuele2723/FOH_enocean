@@ -10,8 +10,7 @@ blueprint:
       description: Switch device
       selector:
         device:
-          manufacturer: PhilipsFoH
-          integration: Philips Hue
+          model: Friends of Hue Switch (FOHSWITCH)
     button_one_single_press:
       name: 1 button - Single press
       description: Action to run on a single press of the button 1
