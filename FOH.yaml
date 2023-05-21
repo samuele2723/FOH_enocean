@@ -9,8 +9,8 @@ blueprint:
       name: Remote
       description: Switch device
       selector:
-        device:
-          manufacturer: PhilipsFoH
+        model:
+          manufacturer: FOHSWITCH
     button_one_single_press:
       name: 1 button - Single press
       description: Action to run on a single press of the button 1
